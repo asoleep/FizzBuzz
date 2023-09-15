@@ -1,6 +1,7 @@
 /**
  * Prints how many multiples of 3 or 5 there are below 1000
- */public class Multiples {
+ */
+public class Multiples {
     public static void main(String[] args) {
 
         int multiples = 0; //counter
