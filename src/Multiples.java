@@ -8,13 +8,10 @@ public class Multiples {
 
         for (int i = 0; i < 1000; i++){
 
-            if (i % 3 == 0) {
+            if (i % 3 == 0 || i % 5 == 0) {
                multiples += 1;
             }
 
-            else if (i % 5 == 0){
-                multiples +=1;
-            }
         }
 
         System.out.println("There are " + multiples + " non-negative multiples of 3 or 5 below 1000.");
